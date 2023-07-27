@@ -10,6 +10,7 @@
   max-width: 768px;
   gap: 28px;
   margin: auto;
+  padding-block-end: 28px;
 }
 
 .card {

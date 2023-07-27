@@ -87,7 +87,7 @@ function App() {
               <Logo
                 type='secondary'
                 color='reserved'
-                style={{ padding: "18px" }}
+                style={{ background: "black", padding: "18px" }}
               />
             </div>
           </div>
