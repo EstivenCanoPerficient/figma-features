@@ -63,7 +63,7 @@
 
 .storybook-button--secondary:focus {
   border-radius: var(--border-radius-4, 4px);
-  border: 1px solid var(--color-button-border-secondary-border-focus);
+  border: 1.6px solid var(--color-button-border-secondary-border-focus);
   background: var(--color-button-background-secondary-focus);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
 }

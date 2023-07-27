@@ -1,0 +1,25 @@
+@import "../theme.css";
+
+.storybook-base-logo--oneColor {
+  fill: var(--color-base-black);
+}
+
+.storybook-base-logo--fullColor {
+  fill: var(--color-base-black);
+}
+
+.storybook-base-logo--reserved {
+  fill: var(--color-base-white);
+}
+
+.storybook-base-p--oneColor {
+  fill: var(--color-base-black);
+}
+
+.storybook-base-p--fullColor {
+  fill: var(--color-primary-medium);
+}
+
+.storybook-base-p--reserved {
+  fill: var(--color-base-white);
+}
