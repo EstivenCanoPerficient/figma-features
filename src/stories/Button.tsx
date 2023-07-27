@@ -6,15 +6,15 @@ interface ButtonProps
     HTMLButtonElement
   > {
   /**
-   * Is this the principal call to action on the page?
+   * Button type
    */
   variation?: "primary" | "secondary";
   /**
-   * How large should the button be?
+   * Button size
    */
   size?: "small" | "medium" | "large";
   /**
-   * Button contents
+   * Button label content
    */
   label: string;
 }
