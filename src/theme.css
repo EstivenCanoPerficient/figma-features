@@ -1,0 +1,103 @@
+:root {
+  --border-radius-50: 999999px;
+  --spacing-size-spacing-40: 40px;
+  --spacing-size-spacing-12: 12px;
+  --border-radius-4: 4px;
+  --color-grey-100: #fbfbfb;
+  --spacing-size-spacing-16: 16px;
+  --color-grey-200: #f8f8f8;
+  --color-grey-400: #d1d3d4;
+  --spacing-size-spacing-32: 32px;
+  --color-grey-700: #444444;
+  --spacing-size-spacing-24: 24px;
+  --color-grey-800: #383838;
+  --color-grey-900: #222222;
+  --color-base-white: #ffffff;
+  --color-primary-dark: #8d0e11;
+  --color-primary-light: #e61717;
+  --spacing-size-spacing-8: 8px;
+  --color-grey-600: #58595b;
+  --spacing-size-spacing-64: 64px;
+  --color-base-black: #000000;
+  --color-primary-medium: #cc1f20;
+
+  --color-icon-on-surfaces: var(--color-theme-on-surfaces);
+  --color-theme-on-surfaces: var(--color-grey-100);
+  --color-theme-surfaces: var(--color-grey-800);
+  --color-theme-disabled: var(--color-grey-600);
+  --color-theme-background: var(--color-base-black);
+  --color-button-border-secondary-border-disabled: var(--color-theme-disabled);
+  --color-button-border-secondary-border-focus: var(--color-grey-100);
+  --color-button-border-secondary-border-press: var(--color-grey-600);
+  --color-button-border-secondary-border-hover: var(--color-grey-100);
+  --color-button-background-primary-hover: var(--color-primary-dark);
+  --color-button-border-secondary-border-default: var(--color-grey-100);
+  --color-button-background-primary-default: var(--color-theme-primary);
+  --color-button-text-secondary-disabled: var(--color-grey-400);
+  --color-button-background-secondary-focus: var(--color-grey-700);
+  --color-button-background-primary-focus: var(--color-primary-dark);
+  --color-button-background-secondary-default: var(--color-base-black);
+  --color-theme-primary: var(--color-primary-medium);
+  --color-button-text-primary-disabled: var(--color-grey-400);
+  --color-button-text-secondary-press: var(--color-text-body);
+  --color-button-border-primary-disabled: var(--color-theme-disabled);
+  --color-button-background-secondary-press: var(--color-grey-700);
+  --color-button-border-primary-focus: var(--color-primary-dark);
+  --color-button-text-primary-default: var(--color-theme-on-primary);
+  --color-button-background-primary-disabled: var(--color-theme-disabled);
+  --color-button-text-secondary-hover: var(--color-grey-900);
+  --color-text-body: var(--color-theme-on-surfaces);
+  --color-button-text-primary-focus: var(--color-theme-on-primary);
+  --color-button-background-primary-press: var(--color-primary-light);
+  --color-button-text-secondary-default: var(--color-text-body);
+  --color-theme-on-primary: var(--color-base-white);
+  --color-text-headings: var(--color-base-white);
+  --color-button-text-primary-press: var(--color-theme-on-primary);
+  --color-button-background-secondary-hover: var(--color-grey-700);
+  --color-button-text-secondary-focus: var(--color-text-body);
+  --color-button-text-primary-hover: var(--color-theme-on-primary);
+  --color-button-background-secondary-disabled: var(--color-theme-disabled);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-icon-on-surfaces: var(--color-theme-on-surfaces);
+    --color-theme-on-surfaces: var(--color-grey-800);
+    --color-theme-surfaces: var(--color-grey-200);
+    --color-theme-disabled: var(--color-grey-400);
+    --color-theme-background: var(--color-base-white);
+    --color-button-border-secondary-border-disabled: var(
+      --color-theme-disabled
+    );
+    --color-button-border-secondary-border-focus: var(--color-grey-900);
+    --color-button-border-secondary-border-press: var(--color-grey-900);
+    --color-button-border-secondary-border-hover: var(--color-grey-900);
+    --color-button-background-primary-hover: var(--color-primary-dark);
+    --color-button-border-secondary-border-default: var(--color-grey-900);
+    --color-button-background-primary-default: var(--color-theme-primary);
+    --color-button-text-secondary-disabled: var(--color-grey-600);
+    --color-button-background-secondary-focus: var(--color-grey-200);
+    --color-button-background-primary-focus: var(--color-primary-dark);
+    --color-button-background-secondary-default: var(--color-base-white);
+    --color-theme-primary: var(--color-primary-medium);
+    --color-button-text-primary-disabled: var(--color-grey-600);
+    --color-button-text-secondary-press: var(--color-text-body);
+    --color-button-border-primary-disabled: var(--color-theme-disabled);
+    --color-button-background-secondary-press: var(--color-grey-200);
+    --color-button-border-primary-focus: var(--color-primary-dark);
+    --color-button-text-primary-default: var(--color-theme-on-primary);
+    --color-button-background-primary-disabled: var(--color-theme-disabled);
+    --color-button-text-secondary-hover: var(--color-theme-background);
+    --color-text-body: var(--color-theme-on-surfaces);
+    --color-button-text-primary-focus: var(--color-theme-on-primary);
+    --color-button-background-primary-press: var(--color-primary-light);
+    --color-button-text-secondary-default: var(--color-text-body);
+    --color-theme-on-primary: var(--color-base-white);
+    --color-text-headings: var(--color-base-black);
+    --color-button-text-primary-press: var(--color-theme-on-primary);
+    --color-button-background-secondary-hover: var(--color-grey-800);
+    --color-button-text-secondary-focus: var(--color-text-body);
+    --color-button-text-primary-hover: var(--color-theme-on-primary);
+    --color-button-background-secondary-disabled: var(--color-theme-disabled);
+  }
+}
