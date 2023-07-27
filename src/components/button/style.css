@@ -12,9 +12,7 @@
   align-items: center;
   gap: var(--spacing-size-spacing-16);
   display: inline-flex;
-  padding: var(--spacing-size-spacing-16) var(--spacing-size-spacing-40);
   border-radius: var(--border-radius-4);
-  padding: var(--spacing-size-spacing-16) var(--spacing-size-spacing-40);
 }
 
 .primary {
@@ -67,4 +65,16 @@
 .secondary:disabled {
   border: 1px solid var(--color-button-border-secondary-border-disabled);
   background: var(--color-button-background-secondary-disabled);
+}
+
+.large {
+  padding: var(--spacing-size-spacing-16) var(--spacing-size-spacing-40);
+}
+
+.medium {
+  padding: 12px var(--spacing-size-spacing-24);
+}
+
+.small {
+  padding: var(--spacing-size-spacing-8) var(--spacing-size-spacing-16);
 }
