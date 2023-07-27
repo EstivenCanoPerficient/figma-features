@@ -13,6 +13,8 @@
     "chromatic": "npx chromatic --project-token=chpt_c5240219ea6bc73"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^5.0.6",
+    "aws-amplify": "^5.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-figmaamplify-staging-211646-authRole",
+      "UnauthRoleArn": "arn:aws:iam::774062217686:role/amplify-figmaamplify-staging-211646-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::774062217686:role/amplify-figmaamplify-staging-211646-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-figmaamplify-staging-211646-deployment",
+      "UnauthRoleName": "amplify-figmaamplify-staging-211646-unauthRole",
+      "StackName": "amplify-figmaamplify-staging-211646",
+      "StackId": "arn:aws:cloudformation:us-east-1:774062217686:stack/amplify-figmaamplify-staging-211646/6a10cfd0-1c42-11ee-99f0-0a95a77af17d",
+      "AmplifyAppId": "doomgnuzcpn2y"
+    }
+  }
+}

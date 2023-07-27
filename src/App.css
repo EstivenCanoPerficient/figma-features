@@ -16,16 +16,15 @@
 .card {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-size-spacing-8);
-  padding-block: 8px;
   padding-inline: 28px;
   border: 1px solid var(--color-grey-600);
   border-radius: var(--border-radius-4);
 }
 
 .buttons-row {
-  display: inline-flex;
-  align-items: baseline;
+  display: flex;
+  align-items: center;
+  max-width: 768px;
   gap: 28px;
 }
 
